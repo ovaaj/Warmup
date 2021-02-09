@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: teal;
+}
+
+.header {
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: yellow;
+    align-items: center;
+}
+
+a {
+    color: yellow;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+}
+
+.main-col {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column {
+    background-color: yellow;
+}
+
+.right-column img {
+    height: 200px;
+}
+
+.right-column {
+    background-color: green;
+}
+
+.footer {
+    background-color: red;
+    height: 100px;
+}
